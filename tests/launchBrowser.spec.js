@@ -1,6 +1,6 @@
    import { test,chromium,firefox,webkit} from "@playwright/test"
 
-
+test.describe("Smoke test",()=>{
   test("launch chrome browser",async()=>{
       
       const browser=await chromium.launch()
@@ -25,3 +25,4 @@
 
 
    })
+})
