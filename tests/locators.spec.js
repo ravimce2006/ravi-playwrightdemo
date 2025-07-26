@@ -10,6 +10,7 @@ test("login details",async()=>{
   await page.click("#login2")
   //await page.locator("#loginusername").fill()
   await page.fill("#loginusername","adivamma")
+  
   //await page.locator("#loginpassword").fill()
   await page.fill("#loginpassword","adivamma")
   //await page.locator("//button[normalize-space()='Log in']")
